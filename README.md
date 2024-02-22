@@ -12,7 +12,7 @@ Additionally, we provide our data processing pipelines to create fully-processed
 - [Download](#download)
 - [Preprocessing](#preprocessing)
 - [Figures](#figures)
-- [Submitting changes](#submitting changes)
+- [Submitting changes](#Submitting changes)
   
 ## Abstract
 
