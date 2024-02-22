@@ -1,7 +1,19 @@
 # Paper title here
+![Project Banner](path/to/banner_image.png)
 
-> :information_source:  This repo houses all of the code for the manuscript XXX[^1].
+> :information_source:  In this repository, we show how to reproduce the figures from our 2024 manuscript (link to paper).
 
+Additionally, we provide our data processing pipelines to create fully-processed Anndata objects containing all of the spatial data used to construct figures.[^1].
+
+## Table of Contents
+
+- [Abstract](#abstract)
+- [Setup](#setup)
+- [Download](#download)
+- [Preprocessing](#preprocessing)
+- [Figures](#figures)
+- [Submitting changes](#submitting changes)
+  
 ## Abstract
 
 ## Setup
