@@ -27,7 +27,7 @@ TODO: Add Script to download the data
 Data from 10x Xenium and Vizgen MERSCOPE were preprocessed using a custom segmentation and annotation pipeline. These pipelines can be found on seperate GitHub repositories
 
 - [Xenium nextflow segmentation pipeline](https://github.com/maximilian-heeg/xenium-segmentation) v0.1.2
-  The follwoing parameters were set:
+  The following parameters were set:
 
   ```text
   tile.minimal_transcripts = 300000
@@ -41,8 +41,11 @@ Data from 10x Xenium and Vizgen MERSCOPE were preprocessed using a custom segmen
   baysor.prior_segmentation_confidence = 0.9
   ```
 
-TODO Link to scripts for preprocessing (Alex)
-
+In this project, we had four separate downstream processing pipelines, each doing slightly different tasks.
+1. Processing of Xenium mouse small intestine timecourse first replicates.
+2. Processing of Xenium mouse small intestine timecourse second replicates.
+3. Processing of MERSCOPE mouse small intestine WT vs TGFBR2 KO conditions.
+4. Processing of Xenium human terminal ileum both replicates.
 ## Figures
 
 This section contains the scripts to reproduce the figures in the paper.
