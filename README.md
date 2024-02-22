@@ -1,0 +1,70 @@
+# Paper title here
+
+> :information_source:  This repo houses all of the code for the manuscript XXX[^1].
+
+## Abstract
+
+## Setup
+
+This repository contains a `devcontainer` to allow to run the scripts in a reproducible manner. Please see the [documentation](https://code.visualstudio.com/docs/devcontainers/containers) for further informatino on how to use devcontainers.
+
+## Download
+
+TODO: Add Script to download the data
+
+## Preprocessing
+
+Data from 10x Xenium and Vizgen MERSCOPE were preprocessed using a custom segmentation and annotation pipeline. These pipelines can be found on seperate GitHub repositories
+
+- [Xenium nextflow segmentation pipeline](https://github.com/maximilian-heeg/xenium-segmentation) v0.1.2
+  The follwoing parameters were set:
+
+  ```text
+  tile.minimal_transcripts = 300000
+  baysor.prior_segmentation_confidence = 0.95
+  ```
+
+- [Merscope nextflow segmentation pipeline](https://github.com/maximilian-heeg/vizgen-segmentation/) v0.1.0
+
+  ```text
+  tile.minimal_transcripts = 500000
+  baysor.prior_segmentation_confidence = 0.9
+  ```
+
+TODO Link to scripts for preprocessing (Alex)
+
+## Figures
+
+This section contains the scripts to reproduce the figures in the paper.
+
+### Figure 1
+
+| Figure | Link                           |
+|--------|--------------------------------|
+| 1b     | TODO                           |
+| 1c     | TODO                           |
+| 1d     | [Notebook](/Figure_1/1d.ipynb) |
+
+### Figure 2
+
+| Figure                | Link                             |
+|-----------------------|----------------------------------|
+| 2a <br /> 2b<br /> 2c | [Notebook](/Figure_2/2abc.ipynb) |
+| 2d                    | [Notebook](/Figure_2/2d.ipynb)   |
+| 2e <br /> 2f          | [Notebook](/Figure_2/2ef.ipynb)  |
+| 2g                    | [Notebook](/Figure_2/2g.ipynb)   |
+| 2h <br /> 2i          | [Notebook](/Figure_2/2hi.ipynb)  |
+| 2j                    | [Notebook](/Figure_2/2j.ipynb)   |
+
+### Extended data figures
+
+| Figure | Link                           |
+|--------|--------------------------------|
+| ED 2b  | [Notebook](/Figure_2/2g.ipynb) |
+| ED 2d  | [Notebook](/Figure_2/2j.ipynb) |
+
+## Submitting changes
+
+Make sure to run `pre-commit run --all-files` before commiting
+
+[^1]: TODO add link to paper
