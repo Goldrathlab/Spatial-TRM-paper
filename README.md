@@ -51,7 +51,7 @@ In this project, we had four similar but separate processing pipelines for proce
 4. Processing of Xenium human terminal ileum both replicates.
    [Xenium human processing](/processing_pipelines/Xenium_human_processing)
 
-> :information_source:  Part of our workflow included cell type annotation. This made use of manual exploration and is not well reflected in the code. We have provided excel sheets and csvs used to assign cell type annotations to cell clusters in each pipeline folder.[^1].
+> :information_source:  Part of our workflow included cell type annotation. This made use of manual exploration and is not well reflected in the code. We have provided excel sheets and csvs used to assign cell type annotations to cell clusters in each pipeline folder.
 
 
 We also performed Immunofluorescence staining and H&E after our Xenium runs. 
