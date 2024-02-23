@@ -54,11 +54,11 @@ In this project, we had four similar but separate processing pipelines for proce
 > :information_source:  Part of our workflow included cell type annotation. This made use of manual exploration and is not well reflected in the code. We have provided excel sheets and csvs used to assign cell type annotations to cell clusters in each pipeline folder.
 
 
-We also performed Immunofluorescence staining and H&E after our Xenium runs. 
+We also performed Immunofluorescence staining and H&E after our Xenium runs.
 We show an implementation of this pipeline in our:
 1. Mouse data [Mouse histology alignment](/processing_pipelines/alignment/mouse_histology)
 2. Human data [Human histology alignment](/processing_pipelines/alignment/human_histology)
-   
+
 ## Figures
 
 This section contains the scripts to reproduce the figures in the paper.
