@@ -11,7 +11,7 @@
 - [Preprocessing](#preprocessing)
 - [Figures](#figures)
 - [Submitting changes](#submittingchanges)
-  
+
 ## Abstract
 
 ## Setup
@@ -26,7 +26,7 @@ TODO: Add Script to download the data
 
 Data from 10x Xenium and Vizgen MERSCOPE were preprocessed using a custom segmentation and annotation pipeline. These pipelines can be found on seperate GitHub repositories
 
-- [Xenium nextflow segmentation pipeline](https://github.com/maximilian-heeg/xenium-segmentation) v0.1.2  
+- [Xenium nextflow segmentation pipeline](https://github.com/maximilian-heeg/xenium-segmentation) v0.1.2
   The following parameters were set:
 
   ```text

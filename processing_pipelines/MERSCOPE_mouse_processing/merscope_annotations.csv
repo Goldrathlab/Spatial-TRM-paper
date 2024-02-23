@@ -1,0 +1,381 @@
+,
+0_0,Transit_Amplifying
+0_1,Transit_Amplifying
+0_10,Transit_Amplifying
+0_11,Transit_Amplifying
+0_12,Transit_Amplifying
+0_13,Transit_Amplifying
+0_14,Transit_Amplifying
+0_15,Transit_Amplifying
+0_16,Transit_Amplifying
+0_17,Transit_Amplifying
+0_2,Transit_Amplifying
+0_3,Transit_Amplifying
+0_4,Transit_Amplifying
+0_5,Transit_Amplifying
+0_6,Transit_Amplifying
+0_7,Transit_Amplifying
+0_8,Transit_Amplifying
+0_9,Transit_Amplifying
+10_0,Macrophage
+10_10,Macrophage
+10_11,Macrophage
+10_1_0,Macrophage
+10_1_1,Macrophage
+10_1_10,Macrophage
+10_1_11,Macrophage
+10_1_2,Macrophage
+10_1_3,Macrophage
+10_1_4,Macrophage
+10_1_5,Macrophage
+10_1_6,Macrophage
+10_1_7,Macrophage
+10_1_8,Macrophage
+10_1_9,Macrophage
+10_2_0,DC2
+10_2_1,cDC1
+10_2_10,DC2
+10_2_11,cDC1
+10_2_2,DC2
+10_2_3,cDC1
+10_2_4,cDC1
+10_2_5,DC2
+10_2_6,DC2
+10_2_7,cDC1
+10_2_8,cDC1
+10_2_9,DC2
+10_3,Macrophage
+10_4,Macrophage
+10_5,Macrophage
+10_6,Macrophage
+10_7,Macrophage
+10_8,Macrophage
+10_9,Macrophage
+11_0,Cd8_T-Cell_P14
+11_1,Cd8_T-Cell_aa+
+11_10,Cd4_T-Cell
+11_11,Eosinophils
+11_12,Cd8_T-Cell_P14
+11_13,B-Cell
+11_14,Fibroblast
+11_15,MegakaryocytePlatelet
+11_16,Cd8_T-Cell_aa+
+11_2,Cd4_T-Cell
+11_3,T-Cell gd
+11_4,Cd8_T-Cell_P14
+11_5,Cd8_T-Cell_ab+
+11_6,Cd8_T-Cell_aa+
+11_7,T-Cell
+11_8,Cd8_T-Cell_P14
+11_9,Cd8_T-Cell_aa+
+12_0,Vascular Endothelial
+12_1,Vascular Endothelial
+12_10,Fibroblast_Pdgfrb+
+12_11,Fibroblast_Pdgfrb+
+12_2,Vascular Endothelial
+12_3,ILC
+12_4,Fibroblast_Pdgfrb+
+12_5,Vascular Endothelial
+12_6,Vascular Endothelial
+12_7,ILC
+12_8,Vascular Endothelial
+12_9,Fibroblast_Pdgfrb+
+13_0,Myofibroblast
+13_1,Myofibroblast
+13_10,Myofibroblast
+13_11,Myofibroblast
+13_2,Myofibroblast
+13_3,Myofibroblast
+13_4,Myofibroblast
+13_5,Myofibroblast
+13_6,Myofibroblast
+13_7,Myofibroblast
+13_8,Myofibroblast
+13_9,Myofibroblast
+14_0,ISC
+14_1,Paneth
+14_10,ISC
+14_2,Paneth
+14_3,Paneth
+14_4,Paneth
+14_5,Paneth
+14_6,Paneth
+14_7,Paneth
+14_8,ISC
+14_9,Paneth
+15_0,B-Cell
+15_1,B-Cell
+15_10,B-Cell
+15_11,B-Cell
+15_12,B-Cell
+15_13,B-Cell
+15_14,NK-Cell
+15_2,B-Cell
+15_3,NK-Cell
+15_4,B-Cell
+15_5,B-Cell
+15_6,NK-Cell
+15_7,B-Cell
+15_8,NK-Cell
+15_9,B-Cell
+16_0,Fibroblast_Ncam1
+16_1,Fibroblast_Pdgfra+
+16_2,Fibroblast_Ncam1
+16_3,Fibroblast_Pdgfra+
+16_4,Fibroblast_Pdgfra+
+16_5,Fibroblast_Ncam1
+16_6,Fibroblast_Ncam1
+16_7,Fibroblast_Pdgfra+
+16_8,Fibroblast_Ncam1
+16_9,Fibroblast_Ncam1
+17_0,Neuron
+17_1,Neuron
+17_10,Neuron
+17_11,Neuron
+17_2,Neuron
+17_3,Neuron
+17_4,Neuron
+17_5,Neuron
+17_6,Neuron
+17_7,Neuron
+17_8,Neuron
+17_9,Neuron
+18_0,Lymphatic
+18_1,Lymphatic
+18_10,Lymphatic
+18_11,Lymphatic
+18_2,Lymphatic
+18_3,Lymphatic
+18_4,Lymphatic
+18_5,Lymphatic
+18_6,Lymphatic
+18_7,Lymphatic
+18_8,Lymphatic
+18_9,Lymphatic
+19_0,Complement_Fibroblast
+19_1,Complement_Fibroblast
+19_10,Complement_Fibroblast
+19_11,Fibroblast_Apoe+
+19_12,Complement_Fibroblast
+19_2,Complement_Fibroblast
+19_3,Fibroblast_Apoe+
+19_4,Fibroblast_Apoe+
+19_5,Complement_Fibroblast
+19_6,Fibroblast_Apoe+
+19_7,Fibroblast_Apoe+
+19_8,Fibroblast_Apoe+
+19_9,Fibroblast_Apoe+
+1_0,Early_Enterocyte
+1_1,Early_Enterocyte
+1_10,Early_Enterocyte
+1_2,Early_Enterocyte
+1_3,Early_Enterocyte
+1_4,Early_Enterocyte
+1_5,Early_Enterocyte
+1_6,Early_Enterocyte
+1_7,Early_Enterocyte
+1_8,Early_Enterocyte
+1_9,Early_Enterocyte
+20_0,Enteroendocrine
+20_1,Enteroendocrine
+20_10,Enteroendocrine
+20_2,Enteroendocrine
+20_3,Enteroendocrine
+20_4,Enteroendocrine
+20_5,Enteroendocrine
+20_6,Enteroendocrine
+20_7,Enteroendocrine
+20_8,Enteroendocrine
+20_9,Enteroendocrine
+21_0,Unknown_1
+21_1,Unknown_1
+21_10,Unknown_1
+21_11,Unknown_1
+21_12,Unknown_1
+21_13,Unknown_1
+21_14,Unknown_1
+21_15,Unknown_1
+21_2,Unknown_1
+21_3,Unknown_1
+21_4,Unknown_1
+21_5,Unknown_1
+21_6,Unknown_1
+21_7,Unknown_1
+21_8,Unknown_1
+21_9,Unknown_1
+22_0,Tuft
+22_1,Tuft
+22_2,Tuft
+22_3,Tuft
+22_4,Tuft
+22_5,Tuft
+22_6,Tuft
+22_7,Tuft
+22_8,Tuft
+22_9,Tuft
+23_0,Unknown_2
+23_1,Unknown_2
+23_10,Unknown_2
+23_11,Unknown_2
+23_2,Unknown_2
+23_3,Unknown_2
+23_4,Unknown_2
+23_5,Unknown_2
+23_6,Unknown_2
+23_7,Unknown_2
+23_8,Unknown_2
+23_9,Unknown_2
+24_0,Monocyte
+24_1,Monocyte
+24_2,Monocyte
+24_3,Monocyte
+24_4,Monocyte
+24_5,Monocyte
+24_6,Monocyte
+24_7,Monocyte
+24_8,Monocyte
+24_9,Monocyte
+25_0,Monocyte
+25_1,Monocyte
+25_2,Monocyte
+25_3,Monocyte
+25_4,Monocyte
+25_5,Monocyte
+25_6,Monocyte
+25_7,Monocyte
+25_8,Monocyte
+25_9,Monocyte
+26_0,MegakaryocytePlatelet
+26_1,MegakaryocytePlatelet
+26_10,MegakaryocytePlatelet
+26_11,MegakaryocytePlatelet
+26_2,MegakaryocytePlatelet
+26_3,MegakaryocytePlatelet
+26_4,MegakaryocytePlatelet
+26_5,MegakaryocytePlatelet
+26_6,MegakaryocytePlatelet
+26_7,MegakaryocytePlatelet
+26_8,MegakaryocytePlatelet
+26_9,MegakaryocytePlatelet
+27_0,Monocyte
+27_1,Monocyte
+27_2,Monocyte
+27_3,Monocyte
+27_4,Monocyte
+27_5,Monocyte
+27_6,Monocyte
+27_7,Monocyte
+27_8,Monocyte
+27_9,Monocyte
+28_0,Monocyte
+28_1,Monocyte
+28_10,Monocyte
+28_2,Monocyte
+28_3,Monocyte
+28_4,Monocyte
+28_5,Monocyte
+28_6,Monocyte
+28_7,Monocyte
+28_8,Monocyte
+28_9,Monocyte
+2_0,Myofibroblast
+2_1,Myofibroblast
+2_10,Myofibroblast
+2_11,Myofibroblast
+2_12,Myofibroblast
+2_13,Myofibroblast
+2_14,Myofibroblast
+2_15,Myofibroblast
+2_16,Myofibroblast
+2_2,Myofibroblast
+2_3,Myofibroblast
+2_4,Myofibroblast
+2_5,Myofibroblast
+2_6,Myofibroblast
+2_7,Myofibroblast
+2_8,Myofibroblast
+2_9,Myofibroblast
+3_0,Enterocyte 3
+3_1,Enterocyte 3
+3_10,Enterocyte 3
+3_11,Enterocyte 3
+3_12,Enterocyte 3
+3_13,Enterocyte 3
+3_2,Enterocyte 3
+3_3,Enterocyte 3
+3_4,Enterocyte 3
+3_5,Enterocyte 3
+3_6,Enterocyte 3
+3_7,Enterocyte 3
+3_8,Enterocyte 3
+3_9,Enterocyte 3
+4_0,Enterocyte 1
+4_1,Enterocyte 1
+4_10,Enterocyte 1
+4_2,Enterocyte 1
+4_3,Enterocyte 1
+4_4,Enterocyte 1
+4_5,Enterocyte 1
+4_6,Enterocyte 1
+4_7,Enterocyte 1
+4_8,Enterocyte 1
+4_9,Enterocyte 1
+5_0,Enterocyte 1
+5_1,Enterocyte 1
+5_2,Enterocyte 1
+5_3,Enterocyte 1
+5_4,Enterocyte 1
+5_5,Enterocyte 1
+5_6,Enterocyte 1
+5_7,Enterocyte 1
+5_8,Enterocyte 1
+5_9,Enterocyte 1
+6_0,Enterocyte 2
+6_1,Enterocyte 2
+6_10,Enterocyte 2
+6_11,Enterocyte 2
+6_12,Enterocyte 2
+6_2,Enterocyte 2
+6_3,Enterocyte 2
+6_4,Enterocyte 2
+6_5,Enterocyte 2
+6_6,Enterocyte 2
+6_7,Enterocyte 2
+6_8,Enterocyte 2
+6_9,Enterocyte 2
+7_0,Fibroblast
+7_1,Fibroblast
+7_10,Fibroblast
+7_11,Fibroblast
+7_2,NK-Cell
+7_3,MAIT
+7_4,Resting_Fibroblast
+7_5,Fibroblast
+7_6,Fibroblast
+7_7,Fibroblast
+7_8,Fibroblast
+7_9,Fibroblast
+8_0,Enterocyte 3
+8_1,Enterocyte 3
+8_10,Enterocyte 3
+8_11,Enterocyte 3
+8_12,Enterocyte 3
+8_13,Enterocyte 3
+8_2,Enterocyte 3
+8_3,Enterocyte 3
+8_4,Enterocyte 3
+8_5,Enterocyte 3
+8_6,Enterocyte 3
+8_7,Enterocyte 3
+8_8,Enterocyte 3
+8_9,Enterocyte 3
+9_0,Goblet
+9_1,Goblet
+9_2,Goblet
+9_3,Goblet
+9_4,Goblet
+9_5,Goblet
+9_6,Goblet
+9_7,Goblet
+9_8,Goblet
+9_9,Goblet
