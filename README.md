@@ -83,6 +83,19 @@ This section contains the scripts to reproduce the figures in the paper.
 | 2h <br /> 2i          | [Notebook](/Figure_2/2hi.ipynb)  |
 | 2j                    | [Notebook](/Figure_2/2j.ipynb)   |
 
+### Figure 3
+
+| Figure       | Link                            |
+|--------------|---------------------------------|
+| 3a           | [Notebook](/Figure_3/3a.ipynb)  |
+| 3b <br /> 3c | [Notebook](/Figure_3/3bc.ipynb) |
+| 3d           | [Notebook](TODO)                |
+| 3e           | [Notebook](TODO)                |
+| 3f           | [Notebook](TODO)                |
+| 3g           | [Notebook](TODO)                |
+
+
+
 ### Extended data figures
 
 | Figure | Link                           |
