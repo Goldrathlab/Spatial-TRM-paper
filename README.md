@@ -43,13 +43,13 @@ Data from 10x Xenium and Vizgen MERSCOPE were preprocessed using a custom segmen
 
 In this project, we had four separate downstream processing pipelines for processing data from different settings.
 1. Processing of Xenium mouse small intestine timecourse first replicates.
-   [Pipeline](/processing_pipelines/Xenium_mouse_replicate_1_processing)
+   [Xenium mouse rep 1 processing](/processing_pipelines/Xenium_mouse_replicate_1_processing)
 2. Processing of Xenium mouse small intestine timecourse second replicates.
-   [Pipeline](/processing_pipelines/Xenium_mouse_replicate_2_processing)
+   [Xenium mouse rep 2 processing](/processing_pipelines/Xenium_mouse_replicate_2_processing)
 3. Processing of MERSCOPE mouse small intestine WT vs TGFBR2 KO conditions.
-   [Pipeline](/processing_pipelines/MERSCOPE_mouse_processing)
+   [MERSCOPE mouse processing](/processing_pipelines/MERSCOPE_mouse_processing)
 4. Processing of Xenium human terminal ileum both replicates.
-   [Pipeline](/processing_pipelines/Xenium_human_processing)
+   [Xenium human processing](/processing_pipelines/Xenium_human_processing)
 
 Part of our workflow included cell type annotation. This made use of manual exploration and is not well reflected in the code. We have provided excel sheets and csvs used to assign cell type annotations to cell clusters in each pipeline folder.
 
