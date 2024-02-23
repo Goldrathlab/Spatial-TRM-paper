@@ -51,7 +51,7 @@ In this project, we had four separate downstream processing pipelines for proces
 4. Processing of Xenium human terminal ileum both replicates.
    [Pipeline](/processing_pipelines/Xenium_human_processing)
 
-Part of our workflow included cell type annotation. This made use of manual exploration and is not well reflected in the code. We have provided excel sheets and csvs used to assign cell type annotations to cell clusters.
+Part of our workflow included cell type annotation. This made use of manual exploration and is not well reflected in the code. We have provided excel sheets and csvs used to assign cell type annotations to cell clusters in each pipeline folder.
 
 ## Figures
 
