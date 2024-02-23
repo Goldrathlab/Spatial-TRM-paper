@@ -41,11 +41,12 @@ Data from 10x Xenium and Vizgen MERSCOPE were preprocessed using a custom segmen
   baysor.prior_segmentation_confidence = 0.9
   ```
 
-In this project, we had four separate downstream processing pipelines, each doing slightly different tasks.
+In this project, we had four separate downstream processing pipelines for processing data from different settings.
 1. Processing of Xenium mouse small intestine timecourse first replicates.
-2. Processing of Xenium mouse small intestine timecourse second replicates.
-3. Processing of MERSCOPE mouse small intestine WT vs TGFBR2 KO conditions.
-4. Processing of Xenium human terminal ileum both replicates.
+   [Pipeline](/processing_pipelines/Xenium_mouse_replicate_1_processing)
+3. Processing of Xenium mouse small intestine timecourse second replicates.
+4. Processing of MERSCOPE mouse small intestine WT vs TGFBR2 KO conditions.
+5. Processing of Xenium human terminal ileum both replicates.
 ## Figures
 
 This section contains the scripts to reproduce the figures in the paper.
