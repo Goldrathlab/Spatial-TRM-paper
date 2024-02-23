@@ -44,9 +44,12 @@ Data from 10x Xenium and Vizgen MERSCOPE were preprocessed using a custom segmen
 In this project, we had four separate downstream processing pipelines for processing data from different settings.
 1. Processing of Xenium mouse small intestine timecourse first replicates.
    [Pipeline](/processing_pipelines/Xenium_mouse_replicate_1_processing)
-3. Processing of Xenium mouse small intestine timecourse second replicates.
-4. Processing of MERSCOPE mouse small intestine WT vs TGFBR2 KO conditions.
-5. Processing of Xenium human terminal ileum both replicates.
+2. Processing of Xenium mouse small intestine timecourse second replicates.
+   [Pipeline](/processing_pipelines/Xenium_mouse_replicate_2_processing)
+3. Processing of MERSCOPE mouse small intestine WT vs TGFBR2 KO conditions.
+   [Pipeline](/processing_pipelines/MERSCOPE_mouse_processing)
+4. Processing of Xenium human terminal ileum both replicates.
+   [Pipeline](/processing_pipelines/Xenium_human_processing)
 ## Figures
 
 This section contains the scripts to reproduce the figures in the paper.
