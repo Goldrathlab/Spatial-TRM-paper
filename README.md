@@ -69,7 +69,7 @@ This section contains the scripts to reproduce the figures in the paper.
 | Figure | Link                           |
 |--------|--------------------------------|
 | 1b     | [Notebook](/Figure_1/1b.ipynb) |
-| 1c     | TODO                           |
+| 1c     | [Notebook](/Figure_1/1c.ipynb) |
 | 1d     | [Notebook](/Figure_1/1d.ipynb) |
 
 ### Figure 2

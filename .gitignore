@@ -1,5 +1,7 @@
 data/adata
 data/IF
+data/images
+data/xenium_output
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
