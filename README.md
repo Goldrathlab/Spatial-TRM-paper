@@ -76,14 +76,14 @@ This section contains the scripts to reproduce the figures in the paper.
 
 ### Figure 2
 
-| Figure                 | Link                                               |
-|------------------------|----------------------------------------------------|
-| 2a <br /> 2b <br /> 2c | [Notebook](/Figure_2/2abc.ipynb)                   |
-| 2d                     | [IMAP of P14](/Figure_2/2d.ipynb)                  |
-| 2e <br /> 2f           | [Correlation along the axes](/Figure_2/2ef.ipynb)  |
-| 2g                     | [Convolved expression heatmap](/Figure_2/2g.ipynb) |
-| 2h <br /> 2i           | [Expression IMAP of P14](/Figure_2/2hi.ipynb)      |
-| 2j                     | [Signature IMAP of P14](/Figure_2/2j.ipynb)        |
+| Figure                 | Link                                                |
+|------------------------|-----------------------------------------------------|
+| 2a <br /> 2b <br /> 2c | [Axes in the small intestine](/Figure_2/2abc.ipynb) |
+| 2d                     | [IMAP of P14](/Figure_2/2d.ipynb)                   |
+| 2e <br /> 2f           | [Correlation along the axes](/Figure_2/2ef.ipynb)   |
+| 2g                     | [Convolved expression heatmap](/Figure_2/2g.ipynb)  |
+| 2h <br /> 2i           | [Expression IMAP of P14](/Figure_2/2hi.ipynb)       |
+| 2j                     | [Signature IMAP of P14](/Figure_2/2j.ipynb)         |
 
 ### Figure 3
 
