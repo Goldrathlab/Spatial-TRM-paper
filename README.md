@@ -38,7 +38,7 @@ Data from 10x Xenium and Vizgen MERSCOPE were preprocessed using a custom segmen
 - [Merscope nextflow segmentation pipeline](https://github.com/maximilian-heeg/vizgen-segmentation/) v0.1.0
 
   ```text
-  tile.minimal_transcripts = 500000
+  tile.minimal_transcripts = 5000000
   baysor.prior_segmentation_confidence = 0.9
   ```
 
@@ -106,6 +106,18 @@ This section contains the scripts to reproduce the figures in the paper.
 | 4d           | TODO                                                          |
 | 4g <br /> 4h | [Correlation of expression to celltypes](/Figure_4/4gh.ipynb) |
 
+### Figure 5
+
+| Figure | Link |
+|--------|------|
+| 5a     | TODO |
+| 5b     | TODO |
+| 5c     | TODO |
+| 5d     | TODO |
+| 5e     | TODO |
+| 5f     | TODO |
+| 5g     | TODO |
+| 5h     | TODO |
 
 
 ### Extended data figures
@@ -121,12 +133,11 @@ This section contains the scripts to reproduce the figures in the paper.
 > [!IMPORTANT]
 > Make sure to run `pre-commit run --all-files` before commiting
 
-[^1]: TODO add link to paper
-
-
 ## Contact
 
 - Miguel Reina-Campos: :email: miguel@lji.org
 - Alexander Monell: :email: amonell@ucsd.edu
 - Maximilian Heeg: :email:mheeg@ucsd.edu
 - Ananda Goldrath: :email: agoldrath@alleninstitute.org
+
+[^1]: TODO add link to paper
