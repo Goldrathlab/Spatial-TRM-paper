@@ -53,13 +53,12 @@ In this project, we had four similar but separate processing pipelines for proce
 4. Processing of Xenium human terminal ileum both replicates.
    [Xenium human processing](/processing_pipelines/Xenium_human_processing)
 
-
 > [!NOTE]
 > Part of our workflow included cell type annotation. This made use of manual exploration and is not well reflected in the code. We have provided excel sheets and csvs used to assign cell type annotations to cell clusters in each pipeline folder.
 
-
 We also performed Immunofluorescence staining and H&E after our Xenium runs.
 We show an implementation of this pipeline in our:
+
 1. Mouse data [Mouse histology alignment](/processing_pipelines/alignment/mouse_histology)
 2. Human data [Human histology alignment](/processing_pipelines/alignment/human_histology)
 
@@ -69,42 +68,53 @@ This section contains the scripts to reproduce the figures in the paper.
 
 ### Figure 1
 
-| Figure | Link                           |
-|--------|--------------------------------|
-| 1b     | [Notebook](/Figure_1/1b.ipynb) |
-| 1c     | [Notebook](/Figure_1/1c.ipynb) |
-| 1d     | [Notebook](/Figure_1/1d.ipynb) |
+| Figure | Link                                          |
+|--------|-----------------------------------------------|
+| 1b     | [Immunofluorescence IMAP](/Figure_1/1b.ipynb) |
+| 1c     | [Notebook](/Figure_1/1c.ipynb)                |
+| 1d     | [Notebook](/Figure_1/1d.ipynb)                |
 
 ### Figure 2
 
-| Figure                | Link                             |
-|-----------------------|----------------------------------|
-| 2a <br /> 2b<br /> 2c | [Notebook](/Figure_2/2abc.ipynb) |
-| 2d                    | [Notebook](/Figure_2/2d.ipynb)   |
-| 2e <br /> 2f          | [Notebook](/Figure_2/2ef.ipynb)  |
-| 2g                    | [Notebook](/Figure_2/2g.ipynb)   |
-| 2h <br /> 2i          | [Notebook](/Figure_2/2hi.ipynb)  |
-| 2j                    | [Notebook](/Figure_2/2j.ipynb)   |
+| Figure                 | Link                                               |
+|------------------------|----------------------------------------------------|
+| 2a <br /> 2b <br /> 2c | [Notebook](/Figure_2/2abc.ipynb)                   |
+| 2d                     | [IMAP of P14](/Figure_2/2d.ipynb)                  |
+| 2e <br /> 2f           | [Correlation along the axes](/Figure_2/2ef.ipynb)  |
+| 2g                     | [Convolved expression heatmap](/Figure_2/2g.ipynb) |
+| 2h <br /> 2i           | [Expression IMAP of P14](/Figure_2/2hi.ipynb)      |
+| 2j                     | [Signature IMAP of P14](/Figure_2/2j.ipynb)        |
 
 ### Figure 3
 
-| Figure       | Link                            |
-|--------------|---------------------------------|
-| 3a           | [Notebook](/Figure_3/3a.ipynb)  |
-| 3b <br /> 3c | [Notebook](/Figure_3/3bc.ipynb) |
-| 3d           | [Notebook](/Figure_3/3d.ipynb)  |
-| 3e           | [Notebook](TODO)                |
-| 3f           | [Notebook](/Figure_3/3f.ipynb)  |
-| 3g           | [Notebook](TODO)                |
+| Figure       | Link                                                                                                                                                                                  |
+|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 3a           | [Spatial graph of the small intestine](/Figure_3/3a.ipynb)                                                                                                                            |
+| 3b <br /> 3c | [Co-localization of cells and P14 subsets](/Figure_3/3bc.ipynb)                                                                                                                       |
+| 3d           | [Convolved expression heatmap of cytokines](/Figure_3/3d.ipynb)                                                                                                                       |
+| 3e           | [TGFb isoforms in the small intestine](/Figure_3/3e.ipynb)                                                                                                                            |
+| 3f           | [Timecourse of TGFb isoform expression](/Figure_3/3f.ipynb)                                                                                                                           |
+| 3g           | Cellchat <br /> [Part 1: Preprocessing python](/Figure_3/3g_part1.ipynb) <br /> [Part 2: Run Cellchat](/Figure_3/3g_part2.ipynb) <br /> [Part 3: Make plot](/Figure_3/3g_part3.ipynb) |
+
+### Figure 4
+
+| Figure       | Link                                                          |
+|--------------|---------------------------------------------------------------|
+| 4a           | TODO                                                          |
+| 4b <br /> 4e | [IMAP and expression IMAP](/Figure_4/4be.ipynb)               |
+| 4c           | TODO                                                          |
+| 4d           | TODO                                                          |
+| 4g <br /> 4h | [Correlation of expression to celltypes](/Figure_4/4gh.ipynb) |
 
 
 
 ### Extended data figures
 
-| Figure | Link                           |
-|--------|--------------------------------|
-| ED 2b  | [Notebook](/Figure_2/2g.ipynb) |
-| ED 2d  | [Notebook](/Figure_2/2j.ipynb) |
+| Figure | Link                            |
+|--------|---------------------------------|
+| ED 2b  | [Notebook](/Figure_2/2g.ipynb)  |
+| ED 2d  | [Notebook](/Figure_2/2j.ipynb)  |
+| ED 4f  | [Notebook](/Figure_4/4be.ipynb) |
 
 ## Submitting changes
 
@@ -112,3 +122,11 @@ This section contains the scripts to reproduce the figures in the paper.
 > Make sure to run `pre-commit run --all-files` before commiting
 
 [^1]: TODO add link to paper
+
+
+## Contact
+
+- Miguel Reina-Campos: :email: miguel@lji.org
+- Alexander Monell: :email: amonell@ucsd.edu
+- Maximilian Heeg: :email:mheeg@ucsd.edu
+- Ananda Goldrath: :email: agoldrath@alleninstitute.org
