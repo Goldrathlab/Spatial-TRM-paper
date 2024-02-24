@@ -1,7 +1,8 @@
 # Paper title here
 ![Project Banner](path/to/banner_image.png)
 
-> :information_source:  In this repository, we show how to reproduce the figures from our 2024 manuscript (link to paper). Additionally, we provide our data processing pipelines to create fully-processed Anndata objects containing all of the spatial data used to construct figures.[^1].
+> [!NOTE]
+> In this repository, we show how to reproduce the figures from our 2024 manuscript (link to paper). Additionally, we provide our data processing pipelines to create fully-processed Anndata objects containing all of the spatial data used to construct figures.[^1].
 
 ## Table of Contents
 
@@ -52,7 +53,9 @@ In this project, we had four similar but separate processing pipelines for proce
 4. Processing of Xenium human terminal ileum both replicates.
    [Xenium human processing](/processing_pipelines/Xenium_human_processing)
 
-> :information_source:  Part of our workflow included cell type annotation. This made use of manual exploration and is not well reflected in the code. We have provided excel sheets and csvs used to assign cell type annotations to cell clusters in each pipeline folder.
+
+> [!NOTE]
+> Part of our workflow included cell type annotation. This made use of manual exploration and is not well reflected in the code. We have provided excel sheets and csvs used to assign cell type annotations to cell clusters in each pipeline folder.
 
 
 We also performed Immunofluorescence staining and H&E after our Xenium runs.
@@ -105,6 +108,7 @@ This section contains the scripts to reproduce the figures in the paper.
 
 ## Submitting changes
 
-Make sure to run `pre-commit run --all-files` before commiting
+> [!IMPORTANT]
+> Make sure to run `pre-commit run --all-files` before commiting
 
 [^1]: TODO add link to paper
