@@ -107,17 +107,16 @@ This section contains the scripts to reproduce the figures in the paper.
 
 ### Figure 5
 
-| Figure | Link |
-|--------|------|
-| 5a     | TODO |
-| 5b     | TODO |
-| 5c     | TODO |
-| 5d     | TODO |
-| 5e     | TODO |
-| 5f     | TODO |
-| 5g     | TODO |
-| 5h     | TODO |
-
+| Figure | Link                                                                     |
+|--------|--------------------------------------------------------------------------|
+| 5a     | TODO                                                                     |
+| 5b     | TODO                                                                     |
+| 5c     | TODO                                                                     |
+| 5d     | TODO                                                                     |
+| 5e     | TODO                                                                     |
+| 5f     | TODO                                                                     |
+| 5g     | [Correlation between gene expression and cell types](/Figure_5/5g.ipynb) |
+| 5h     | TODO                                                                     |
 
 ### Extended data figures
 
@@ -134,9 +133,9 @@ This section contains the scripts to reproduce the figures in the paper.
 
 ## Contact
 
-- Miguel Reina-Campos: :email: miguel@lji.org
-- Alexander Monell: :email: amonell@ucsd.edu
-- Maximilian Heeg: :email:mheeg@ucsd.edu
-- Ananda Goldrath: :email: agoldrath@alleninstitute.org
+- Miguel Reina-Campos: :envelope: miguel@lji.org
+- Alexander Monell: :envelope: amonell@ucsd.edu
+- Maximilian Heeg: :envelope: mheeg@ucsd.edu
+- Ananda Goldrath: :envelope: agoldrath@alleninstitute.org
 
 [^1]: TODO add link to paper
