@@ -68,11 +68,11 @@ This section contains the scripts to reproduce the figures in the paper.
 
 ### Figure 1
 
-| Figure | Link                                          |
-|--------|-----------------------------------------------|
-| 1b     | [Immunofluorescence IMAP](/Figure_1/1b.ipynb) |
-| 1c     | [Notebook](/Figure_1/1c.ipynb)                |
-| 1d     | [Notebook](/Figure_1/1d.ipynb)                |
+| Figure | Link                                                  |
+|--------|-------------------------------------------------------|
+| 1b     | [Immunofluorescence IMAP](/Figure_1/1b.ipynb)         |
+| 1c     | [Xenium, H&E, IF and transcripts](/Figure_1/1c.ipynb) |
+| 1d     | [Overview plots](/Figure_1/1d.ipynb)                  |
 
 ### Figure 2
 
@@ -100,10 +100,9 @@ This section contains the scripts to reproduce the figures in the paper.
 
 | Figure       | Link                                                          |
 |--------------|---------------------------------------------------------------|
-| 4a           | TODO                                                          |
+| 4a           | [Overview plots](/Figure_4/4a.ipynb)                          |
 | 4b <br /> 4e | [IMAP and expression IMAP](/Figure_4/4be.ipynb)               |
-| 4c           | TODO                                                          |
-| 4d           | TODO                                                          |
+| 4d           | [Differenitally expressed genes](/Figure_4/4d.ipynb)          |
 | 4g <br /> 4h | [Correlation of expression to celltypes](/Figure_4/4gh.ipynb) |
 
 ### Figure 5
