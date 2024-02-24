@@ -1,8 +1,8 @@
-# Paper title here
-![Project Banner](path/to/banner_image.png)
+# Functional Diversity of Memory CD8 T Cells is Spatiotemporally Imprinted
+![Project Banner](images/connections.png)
 
 > [!NOTE]
-> In this repository, we show how to reproduce the figures from our 2024 manuscript (link to paper). Additionally, we provide our data processing pipelines to create fully-processed Anndata objects containing all of the spatial data used to construct figures.[^1].
+> In this repository, we show how to reproduce the figures from our 2024 manuscript[^1]. Additionally, we provide our data processing pipelines to create fully-processed Anndata objects containing all of the spatial data used to construct figures.
 
 ## Table of Contents
 
@@ -92,9 +92,9 @@ This section contains the scripts to reproduce the figures in the paper.
 |--------------|---------------------------------|
 | 3a           | [Notebook](/Figure_3/3a.ipynb)  |
 | 3b <br /> 3c | [Notebook](/Figure_3/3bc.ipynb) |
-| 3d           | [Notebook](TODO)                |
+| 3d           | [Notebook](/Figure_3/3d.ipynb)  |
 | 3e           | [Notebook](TODO)                |
-| 3f           | [Notebook](TODO)                |
+| 3f           | [Notebook](/Figure_3/3f.ipynb)  |
 | 3g           | [Notebook](TODO)                |
 
 
