@@ -21,8 +21,50 @@ This repository contains a `devcontainer` to allow to run the scripts in a repro
 
 ## Download
 
-TODO: Add Script to download the data.
-Including villus_segmentation_mask.npy from xenium mouse 1 processing
+The preprocessed files will be provided on Zenodo.
+To reproduce the main figures, the following files in the `data` directory are needed.
+
+```text
+data
+├── adata
+│   ├── day8_r2_with_transcripts.h5ad
+│   ├── human_09_r2_with_transcripts.h5ad
+│   ├── human.h5ad
+│   ├── tgfb.h5ad
+│   └── timecourse.h5ad
+├── IF
+│   └── timecourse
+│       ├── day 005.txt
+│       ├── day 006.txt
+│       ├── day 007.txt
+│       ├── day 060.txt
+│       └── day 120.txt
+├── images
+│   ├── day8_r2_h_and_e_alignment_gan.npy
+│   ├── day8_r2_IF_alignment.npy
+│   ├── human_09_r2_h_and_e_alignment_gan.npy
+│   └── human_09_r2_IF_alignment.npy
+├── kegg_cytokines.csv
+├── signatures
+│   ├── blimp.txt
+│   ├── Core Trm signature_Milner et al Nature 2017_vIL.txt
+│   ├── id3.txt
+│   ├── kurd.xlsx
+│   └── TGFbeta.txt
+├── transcripts
+│   └── transcripts_figure_5c.csv
+└── xenium_output
+    ├── day8_r2
+    │   ├── experiment.xenium
+    │   └── morphology_mip.ome.tif
+    └── human_09_r2
+        ├── experiment.xenium
+        └── morphology_mip.ome.tif
+```
+
+> [!IMPORTANT]
+> TODO Include script to automatically download the files.
+> Including villus_segmentation_mask.npy from xenium mouse 1 processing
 
 ## Preprocessing
 
