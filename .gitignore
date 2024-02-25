@@ -4,6 +4,7 @@ data/images
 data/xenium_output
 data/transcripts
 Figure_3/tmp
+Figure_5/tmp
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

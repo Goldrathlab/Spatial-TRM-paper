@@ -108,14 +108,14 @@ This section contains the scripts to reproduce the figures in the paper.
 
 ### Figure 5
 
-| Figure       | Link                                                                     |
-|--------------|--------------------------------------------------------------------------|
-| 5a <br /> 5b | [MDE plot and cell frequencies](/Figure_5/5ab.ipynb)                     |
-| 5c           | [Xenium, H&E, IF and transcripts](/Figure_5/5c.ipynb)                    |
-| 5d           | [Mouse signature on human IMAP](/Figure_5/5d.ipynb)                      |
-| 5e <br /> 5f | [Convolved expression heatmap](/Figure_5/5ef.ipynb)                      |
-| 5g           | [Correlation between gene expression and cell types](/Figure_5/5g.ipynb) |
-| 5h           | TODO                                                                     |
+| Figure       | Link                                                                                                                                                                                                                                                                                                                                                 |
+|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 5a <br /> 5b | [MDE plot and cell frequencies](/Figure_5/5ab.ipynb)                                                                                                                                                                                                                                                                                                 |
+| 5c           | [Xenium, H&E, IF and transcripts](/Figure_5/5c.ipynb)                                                                                                                                                                                                                                                                                                |
+| 5d           | [Mouse signature on human IMAP](/Figure_5/5d.ipynb)                                                                                                                                                                                                                                                                                                  |
+| 5e <br /> 5f | [Convolved expression heatmap](/Figure_5/5ef.ipynb)                                                                                                                                                                                                                                                                                                  |
+| 5g           | [Correlation between gene expression and cell types](/Figure_5/5g.ipynb)                                                                                                                                                                                                                                                                             |
+| 5h           | Cellchat <br /> [Part 1: Dataset export](/Figure_5/5h_part1_dataset_export_signature.ipynb) <br /> [Part 2: Cellchat preparation](/Figure_5/5h_part2_cellchat_preparation%20signature.ipynb) <br /> [Part 3: Run Cellchat](/Figure_5/5h_part3_spatial_cellchat_signature.ipynb) <br /> [Part 4: Make plot](/Figure_5/5h_part4_output_cellchat.ipynb) |
 
 ### Extended data figures
 
