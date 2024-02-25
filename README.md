@@ -119,12 +119,14 @@ This section contains the scripts to reproduce the figures in the paper.
 
 ### Extended data figures
 
-| Figure             | Link                            |
-|--------------------|---------------------------------|
-| ED 2b              | [Notebook](/Figure_2/2g.ipynb)  |
-| ED 2d              | [Notebook](/Figure_2/2j.ipynb)  |
-| ED 4f              | [Notebook](/Figure_4/4be.ipynb) |
-| ED 5b <br /> ED 5d | [Notebook](/Figure_5/5ab.ipynb) |
+| Figure             | Link                                 |
+|--------------------|--------------------------------------|
+| ED 2b              | [Notebook](/Figure_2/2g.ipynb)       |
+| ED 2d              | [Notebook](/Figure_2/2j.ipynb)       |
+| ED 3d              | [Notebook](/Figure_3/3g_part3.ipynb) |
+| ED 4a              | [Notebook](/Figure_3/3g_part3.ipynb) |
+| ED 4f              | [Notebook](/Figure_4/4be.ipynb)      |
+| ED 5b <br /> ED 5d | [Notebook](/Figure_5/5ab.ipynb)      |
 
 ## Submitting changes
 
