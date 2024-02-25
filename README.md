@@ -111,7 +111,7 @@ This section contains the scripts to reproduce the figures in the paper.
 |--------------|--------------------------------------------------------------------------|
 | 5a <br /> 5b | [MDE plot and cell frequencies](/Figure_5/5ab.ipynb)                     |
 | 5c           | TODO                                                                     |
-| 5d           | TODO                                                                     |
+| 5d           | [Mouse signature on human IMAP](/Figure_5/5d.ipynb)                      |
 | 5e           | TODO                                                                     |
 | 5f           | TODO                                                                     |
 | 5g           | [Correlation between gene expression and cell types](/Figure_5/5g.ipynb) |
