@@ -55,7 +55,7 @@ In this project, we had four similar but separate processing pipelines for proce
    [Xenium human processing](/processing_pipelines/Xenium_human_processing)
 
 > [!NOTE]
-> Part of our workflow included cell type annotation. This made use of manual exploration and is not well reflected in the code. We have provided excel sheets and csvs used to assign cell type annotations to cell clusters in each pipeline folder. Additionally, we labeled images manually in several parts of our pipelines. We have provided these labels in json format within each pipeline folder.
+> Part of our workflow included cell type annotation. This made use of manual exploration and is not well reflected in the code. We have provided excel sheets and csvs used to assign cell type annotations to cell clusters in each pipeline folder. Additionally, we labeled images manually in several parts of our pipelines. We have provided these labels in json format within each pipeline folder. Please [contact](#contact) us if you need us to give you intermediary objects at any point in the processing pipelines.
 
 We also performed Immunofluorescence staining and H&E after our Xenium runs.
 We show an implementation of this pipeline in our:
