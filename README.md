@@ -107,24 +107,24 @@ This section contains the scripts to reproduce the figures in the paper.
 
 ### Figure 5
 
-| Figure | Link                                                                     |
-|--------|--------------------------------------------------------------------------|
-| 5a     | TODO                                                                     |
-| 5b     | TODO                                                                     |
-| 5c     | TODO                                                                     |
-| 5d     | TODO                                                                     |
-| 5e     | TODO                                                                     |
-| 5f     | TODO                                                                     |
-| 5g     | [Correlation between gene expression and cell types](/Figure_5/5g.ipynb) |
-| 5h     | TODO                                                                     |
+| Figure       | Link                                                                     |
+|--------------|--------------------------------------------------------------------------|
+| 5a <br /> 5b | [MDE plot and cell frequencies](/Figure_5/5ab.ipynb)                     |
+| 5c           | TODO                                                                     |
+| 5d           | TODO                                                                     |
+| 5e           | TODO                                                                     |
+| 5f           | TODO                                                                     |
+| 5g           | [Correlation between gene expression and cell types](/Figure_5/5g.ipynb) |
+| 5h           | TODO                                                                     |
 
 ### Extended data figures
 
-| Figure | Link                            |
-|--------|---------------------------------|
-| ED 2b  | [Notebook](/Figure_2/2g.ipynb)  |
-| ED 2d  | [Notebook](/Figure_2/2j.ipynb)  |
-| ED 4f  | [Notebook](/Figure_4/4be.ipynb) |
+| Figure             | Link                            |
+|--------------------|---------------------------------|
+| ED 2b              | [Notebook](/Figure_2/2g.ipynb)  |
+| ED 2d              | [Notebook](/Figure_2/2j.ipynb)  |
+| ED 4f              | [Notebook](/Figure_4/4be.ipynb) |
+| ED 5b <br /> ED 5d | [Notebook](/Figure_5/5ab.ipynb) |
 
 ## Submitting changes
 
