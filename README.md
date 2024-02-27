@@ -21,8 +21,11 @@ This repository contains a `devcontainer` to allow to run the scripts in a repro
 
 ## Download
 
-The preprocessed files will be provided on Zenodo.
+The preprocessed files will be provided on Zenodo upon publication.
 To reproduce the main figures, the following files in the `data` directory are needed.
+
+> [!IMPORTANT]
+> A script to download the processed data is included [here](/data/download.ipynb). In order to run this script, a base url is needed. This url will be provided with the submission of the manuscript.
 
 ```text
 data
@@ -61,10 +64,6 @@ data
         ├── experiment.xenium
         └── morphology_mip.ome.tif
 ```
-
-> [!IMPORTANT]
-> TODO Include script to automatically download the files.
-> Including villus_segmentation_mask.npy from xenium mouse 1 processing
 
 ## Preprocessing
 
