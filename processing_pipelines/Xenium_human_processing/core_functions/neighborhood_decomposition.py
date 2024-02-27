@@ -12,6 +12,17 @@ import glob
 
 
 def create_grid_bins(spatial_points, n):
+    """
+    Create a grid of bins to assign spatial points to
+
+    Parameters:
+    spatial_points (np.array): An array of spatial points
+    n (int): The number of bins to create
+
+    Returns:
+    grid_bins (np.array): An array of bins
+    bin_centers (np.array): An array of bin centers
+    """
     xmin, ymin = np.min(spatial_points, axis=0)
     xmax, ymax = np.max(spatial_points, axis=0)
 
@@ -42,6 +53,18 @@ def create_grid_bins(spatial_points, n):
 
 
 def create_binned_data(adata, bins, centers, unique_bins):
+    """
+    Create a binned AnnData object from the original AnnData object
+
+    Parameters:
+    adata (AnnData): An AnnData object containing the original data
+    bins (np.array): An array of bins
+    centers (np.array): An array of bin centers
+    unique_bins (np.array): An array of unique bins
+
+    Returns:
+    adata_filtered (AnnData): An AnnData object containing the binned data
+    """
     expression_matrix = []
     for b in tqdm(range(len(unique_bins))):
         where_bin = np.where(bins == b)[0]
@@ -67,6 +90,18 @@ def create_binned_data(adata, bins, centers, unique_bins):
 
 
 def plot_top_words(model, feature_names, n_top_words, title):
+    """
+    Plot the top words for each topic in the NMF model.
+
+    Parameters:
+    model (NMF): An NMF model
+    feature_names (list): A list of feature names
+    n_top_words (int): The number of top words to plot
+    title (str): The title of the plot
+
+    Returns:
+    None
+    """
     fig, axes = plt.subplots(
         3, int(len(model.components_) / 3) + 1, figsize=(15, 7), sharex=False
     )

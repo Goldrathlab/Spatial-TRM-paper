@@ -14,6 +14,16 @@ import imageio as io
 
 
 def prepare_transcripts(input_file):
+    """
+    Read in the transcripts files output by Baysor and prepare them for further processing.
+
+    Parameters:
+    input_file (str): The path to the directory containing the Baysor output files.
+
+    Returns:
+    transcripts (pd.DataFrame): A DataFrame containing the assigned transcripts and their cell numbers.
+    transcripts_cellpose (pd.DataFrame): A DataFrame containing the transcripts assigned to cellpose nuclei.
+    """
     transcripts_cellpose = pd.read_csv(
         os.path.join(input_file, "transcripts_cellpose.csv"), index_col=0
     )
@@ -31,6 +41,16 @@ def prepare_transcripts(input_file):
 
 
 def assign_nuclei_to_cells(transcripts, transcripts_cellpose):
+    """
+    Assign nuclei to cells based on the transcripts that overlap with them.
+
+    Parameters:
+    transcripts (pd.DataFrame): A DataFrame containing the assigned transcripts and their cell numbers.
+    transcripts_cellpose (pd.DataFrame): A DataFrame containing the transcripts assigned to cellpose nuclei.
+
+    Returns:
+    result (dict): A dictionary containing the most common nucleus for each unique cell number.
+    """
     overlap = transcripts[transcripts.overlaps_nucleus == 1]
     nuclei_associated = transcripts_cellpose.loc[overlap.index.values]
     overlap["associated_nucleus"] = nuclei_associated.cell_id.values
@@ -58,6 +78,16 @@ def assign_nuclei_to_cells(transcripts, transcripts_cellpose):
 
 
 def find_main_nucleus(transcripts, transcripts_cellpose, result):
+    """
+    Find the main nucleus for each cell based on the most common nucleus assigned to it.
+
+    Parameters:
+    transcripts (pd.DataFrame): A DataFrame containing the assigned transcripts and their cell numbers.
+    transcripts_cellpose (pd.DataFrame): A DataFrame containing the transcripts assigned to cellpose nuclei.
+
+    Returns:
+    transcripts_with_gt_and_main_nucleus_filtered (pd.DataFrame): A DataFrame containing the assigned transcripts, their cell numbers, and the most common nucleus assigned to them.
+    """
     keys = list(result.keys())
     values = list(result.values())
     index = [i for i in range(len(keys))]
@@ -90,6 +120,16 @@ def find_main_nucleus(transcripts, transcripts_cellpose, result):
 def reassign_multiple_nuclei(
     transcripts_with_gt_and_main_nucleus_filtered, groupby_most_common_nucleus
 ):
+    """
+    For cells with multiple nuclei, reassign the transcripts to the nucleus that is closest to them.
+
+    Parameters:
+    transcripts_with_gt_and_main_nucleus_filtered (pd.DataFrame): A DataFrame containing the assigned transcripts, their cell numbers, and the most common nucleus assigned to them.
+    groupby_most_common_nucleus (pd.DataFrame): A DataFrame containing the most common nucleus for each unique cell number.
+
+    Returns:
+    transcripts_with_gt_and_main_nucleus_filtered (pd.DataFrame): A DataFrame containing the assigned transcripts, their cell numbers, and the most common nucleus assigned to them.
+    """
     reassignments = np.zeros(len(transcripts_with_gt_and_main_nucleus_filtered))
     for group_name, group_data in groupby_most_common_nucleus:
         unique = np.unique(group_data.cell_id.values)
@@ -116,6 +156,15 @@ def reassign_multiple_nuclei(
 
 
 def make_adata(transcripts_with_gt_and_main_nucleus_filtered):
+    """
+    Create an AnnData object from the final assigned transcripts DataFrame.
+
+    Parameters:
+    transcripts_with_gt_and_main_nucleus_filtered (pd.DataFrame): A DataFrame containing the assigned transcripts, their cell numbers, and the most common nucleus assigned to them.
+
+    Returns:
+    anndata (AnnData): An AnnData object containing the assigned transcripts and their cell numbers.
+    """
     cell_by_gene = (
         transcripts_with_gt_and_main_nucleus_filtered.groupby(["split_cell", "gene"])
         .size()

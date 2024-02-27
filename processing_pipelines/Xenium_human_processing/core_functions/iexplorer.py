@@ -25,6 +25,7 @@ from core_functions.segmentation_evaluation import *
 #### Plotting
 
 
+# A tool that tries to combine all plotting into one function. No reason to use this unless you want to develop it further
 def run_iExplorer(
     image_plot,
     if_channel,

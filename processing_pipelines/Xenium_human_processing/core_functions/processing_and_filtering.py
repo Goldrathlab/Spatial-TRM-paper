@@ -6,7 +6,18 @@ import os
 
 
 def plot_qc_feature(cell_by_gene, cell_meta, path, control_probes=False):
+    """
+    Plot quality control features
 
+    Parameters:
+    cell_by_gene (pd.DataFrame): A DataFrame containing the cell by gene matrix
+    cell_meta (pd.DataFrame): A DataFrame containing the cell metadata
+    path (str): The path to save the plot
+    control_probes (bool): Whether or not to plot control probes
+
+    Returns:
+    None
+    """
     qc_info = cell_meta
 
     if control_probes:
@@ -60,6 +71,15 @@ def qc_before_clustering(
     min_nuc_pct=0,
     max_nuc_pct=1.01,
 ):
+    """
+    Perform quality control filtering
+
+    Parameters:
+    adata (AnnData): An AnnData object containing the original data
+
+    Returns:
+    adata (AnnData): An AnnData object containing the filtered data
+    """
     print(f"{len(adata.obs.index)} cells before QC filtering")
     adata = adata[
         (adata.obs["total_transcripts"] > min_transcript_threshold)
