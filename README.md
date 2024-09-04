@@ -113,7 +113,7 @@ This section contains the scripts to reproduce the figures in the paper.
 ### Figure 1
 
 | Figure | Link                                                  |
-|--------|-------------------------------------------------------|
+| ------ | ----------------------------------------------------- |
 | 1b     | [Immunofluorescence IMAP](/Figure_1/1b.ipynb)         |
 | 1c     | [Xenium, H&E, IF and transcripts](/Figure_1/1c.ipynb) |
 | 1d     | [Overview plots](/Figure_1/1d.ipynb)                  |
@@ -121,29 +121,29 @@ This section contains the scripts to reproduce the figures in the paper.
 ### Figure 2
 
 | Figure                 | Link                                                |
-|------------------------|-----------------------------------------------------|
+| ---------------------- | --------------------------------------------------- |
 | 2a <br /> 2b <br /> 2c | [Axes in the small intestine](/Figure_2/2abc.ipynb) |
 | 2d                     | [IMAP of P14](/Figure_2/2d.ipynb)                   |
-| 2e <br /> 2f           | [Correlation along the axes](/Figure_2/2ef.ipynb)   |
-| 2g                     | [Convolved expression heatmap](/Figure_2/2g.ipynb)  |
-| 2h <br /> 2i           | [Expression IMAP of P14](/Figure_2/2hi.ipynb)       |
+| 2e                     | [Correlation along the axes](/Figure_2/2e.ipynb)    |
+| 2g <br /> 2h           | [Convolved expression heatmap](/Figure_2/2g.ipynb)  |
+| 2f <br /> 2i           | [Expression IMAP of P14](/Figure_2/2hi.ipynb)       |
 | 2j                     | [Signature IMAP of P14](/Figure_2/2j.ipynb)         |
 
 ### Figure 3
 
 | Figure       | Link                                                                                                                                                                                  |
-|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 3a           | [Spatial graph of the small intestine](/Figure_3/3a.ipynb)                                                                                                                            |
 | 3b <br /> 3c | [Co-localization of cells and P14 subsets](/Figure_3/3bc.ipynb)                                                                                                                       |
 | 3d           | [Convolved expression heatmap of cytokines](/Figure_3/3d.ipynb)                                                                                                                       |
-| 3e           | [TGFb isoforms in the small intestine](/Figure_3/3e.ipynb)                                                                                                                            |
-| 3f           | [Timecourse of TGFb isoform expression](/Figure_3/3f.ipynb)                                                                                                                           |
+| 3e           | [TGFb isoforms in the small intestine](/Figure_3/3e_5a.ipynb)    <br />   [Xenium picture](/Figure_3/3e_picture.ipynb)                                                                 |
+| 3e - 2       |                                                                                                                                                                                       |
 | 3g           | Cellchat <br /> [Part 1: Preprocessing python](/Figure_3/3g_part1.ipynb) <br /> [Part 2: Run Cellchat](/Figure_3/3g_part2.ipynb) <br /> [Part 3: Make plot](/Figure_3/3g_part3.ipynb) |
 
 ### Figure 4
 
 | Figure       | Link                                                          |
-|--------------|---------------------------------------------------------------|
+| ------------ | ------------------------------------------------------------- |
 | 4a           | [Overview plots](/Figure_4/4a.ipynb)                          |
 | 4b <br /> 4e | [IMAP and expression IMAP](/Figure_4/4be.ipynb)               |
 | 4d           | [Differenitally expressed genes](/Figure_4/4d.ipynb)          |
@@ -152,7 +152,7 @@ This section contains the scripts to reproduce the figures in the paper.
 ### Figure 5
 
 | Figure       | Link                                                                                                                                                                                                                                                                                                                                                 |
-|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 5a <br /> 5b | [MDE plot and cell frequencies](/Figure_5/5ab.ipynb)                                                                                                                                                                                                                                                                                                 |
 | 5c           | [Xenium, H&E, IF and transcripts](/Figure_5/5c.ipynb)                                                                                                                                                                                                                                                                                                |
 | 5d           | [Mouse signature on human IMAP](/Figure_5/5d.ipynb)                                                                                                                                                                                                                                                                                                  |
@@ -163,7 +163,7 @@ This section contains the scripts to reproduce the figures in the paper.
 ### Extended data figures
 
 | Figure             | Link                                 |
-|--------------------|--------------------------------------|
+| ------------------ | ------------------------------------ |
 | ED 2b              | [Notebook](/Figure_2/2g.ipynb)       |
 | ED 2d              | [Notebook](/Figure_2/2j.ipynb)       |
 | ED 3d              | [Notebook](/Figure_3/3g_part3.ipynb) |
@@ -174,13 +174,13 @@ This section contains the scripts to reproduce the figures in the paper.
 ## Submitting changes
 
 > [!IMPORTANT]
-> Make sure to run `pre-commit run --all-files` before commiting
+> Make sure to run `pixi run pre-commit` before commiting
 
 ## Contact
 
 - Miguel Reina-Campos: :envelope: miguel@lji.org
 - Alexander Monell: :envelope: amonell@ucsd.edu
-- Maximilian Heeg: :envelope: mheeg@ucsd.edu
+- Maximilian Heeg: :envelope: mheeg@alleninstitute.org
 - Ananda Goldrath: :envelope: agoldrath@alleninstitute.org
 
 [^1]: [Preprint at bioRxiv](https://www.biorxiv.org/content/10.1101/2024.03.20.585130v1)

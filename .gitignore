@@ -5,6 +5,7 @@ data/xenium_output
 data/transcripts
 Figure_3/tmp
 Figure_5/tmp
+Figure_*/out
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -17,3 +18,6 @@ __pycache__/
 # IPython
 profile_default/
 ipython_config.py
+# pixi environments
+.pixi
+*.egg-info
