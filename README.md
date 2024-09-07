@@ -180,7 +180,7 @@ This section contains the scripts to reproduce the figures in the paper.
 
 - Miguel Reina-Campos: :envelope: miguel@lji.org
 - Alexander Monell: :envelope: amonell@ucsd.edu
-- Maximilian Heeg: :envelope: mheeg@alleninstitute.org
+- Maximilian Heeg: :envelope: maximilian.heeg@alleninstitute.org
 - Ananda Goldrath: :envelope: agoldrath@alleninstitute.org
 
 [^1]: [Preprint at bioRxiv](https://www.biorxiv.org/content/10.1101/2024.03.20.585130v1)
