@@ -96,6 +96,8 @@ In this project, we had four similar but separate processing pipelines for proce
    [MERSCOPE mouse processing](/processing_pipelines/MERSCOPE_mouse_processing)
 4. Processing of Xenium human terminal ileum both replicates.
    [Xenium human processing](/processing_pipelines/Xenium_human_processing)
+5. Processing of VisiumHD mouse small intestine.
+   [VisiumHD processing](/processing_pipelines/visiumHD)
 
 > [!NOTE]
 > Part of our workflow included cell type annotation. This made use of manual exploration and is not well reflected in the code. We have provided excel sheets and csvs used to assign cell type annotations to cell clusters in each pipeline folder. Additionally, we labeled images manually in several parts of our pipelines. We have provided these labels in json format within each pipeline folder. Please [contact](#contact) us if you need us to give you intermediary objects at any point in the processing pipelines.
