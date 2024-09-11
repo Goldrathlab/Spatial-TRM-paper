@@ -142,9 +142,8 @@ This section contains the scripts to reproduce the figures in the paper.
 | 3a           | [Spatial graph of the small intestine](/Figure_3/3a.ipynb)                                                                                                                            |
 | 3b <br /> 3c | [Co-localization of cells and P14 subsets](/Figure_3/3bc.ipynb)                                                                                                                       |
 | 3d           | [Convolved expression heatmap of cytokines](/Figure_3/3d.ipynb)                                                                                                                       |
-| 3e           | [TGFb isoforms in the small intestine](/Figure_3/3e_5a.ipynb)    <br />   [Xenium picture](/Figure_3/3e_picture.ipynb)                                                                 |
-| 3e - 2       |                                                                                                                                                                                       |
-| 3g           | Cellchat <br /> [Part 1: Preprocessing python](/Figure_3/3g_part1.ipynb) <br /> [Part 2: Run Cellchat](/Figure_3/3g_part2.ipynb) <br /> [Part 3: Make plot](/Figure_3/3g_part3.ipynb) |
+| 3e           | [TGFb isoforms in the small intestine](/Figure_3/3e_5a.ipynb)    <br />   [Xenium picture](/Figure_3/3e_picture.ipynb)                                                                |
+| 3f           | Cellchat <br /> [Part 1: Preprocessing python](/Figure_3/3g_part1.ipynb) <br /> [Part 2: Run Cellchat](/Figure_3/3g_part2.ipynb) <br /> [Part 3: Make plot](/Figure_3/3g_part3.ipynb) |
 
 ### Figure 4
 
@@ -183,8 +182,8 @@ This section contains the scripts to reproduce the figures in the paper.
 | ED 2d              | [Notebook](/Figure_2/2j.ipynb)             |
 | ED 3d              | [Notebook](/Figure_3/3g_part3.ipynb)       |
 | ED 4a              | [Notebook](/Figure_3/3g_part3.ipynb)       |
-| ED 4f              | [Notebook](/Figure_4/4be.ipynb)            |
-| ED 5b <br /> ED 5d | [Notebook](/Figure_6/6ab.ipynb)            |
+| ED 6f              | [Notebook](/Figure_4/4be.ipynb)            |
+| ED 8b <br /> ED 8d | [Notebook](/Figure_6/6ab.ipynb)            |
 | ED 7e              | [Notebook](/Figure_5/5ef_Extended_7e.ipynb)|
 | ED 7b <br /> ED 7d | [Notebook](/Figure_5/Extended_7bd.ipynb)   |
 | ED 7c              | [Notebook](/Figure_5/Extended_7c.ipynb)    |
