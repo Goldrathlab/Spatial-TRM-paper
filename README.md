@@ -155,6 +155,15 @@ This section contains the scripts to reproduce the figures in the paper.
 | 4d           | [Differenitally expressed genes](/Figure_4/4d.ipynb)          |
 | 4g <br /> 4h | [Correlation of expression to celltypes](/Figure_4/4gh.ipynb) |
 
+### Figure 5
+
+| Figure                            | Link                                                           |
+| --------------------------------- | -------------------------------------------------------------- |
+| Preprocessing for Figure 5 object | [Figure 5 Preprocessing](/Figure_5/figure_object_creation)     |
+| 5a                                | [Cxcl9 and Cxcl10 expression](/Figure_5/5a.ipynb)              |
+| 5d                                | [Gene depletion](/Figure_5/5d.ipynb)                           |
+| 5e <br /> 5f                      | [IMAPs and gates](/Figure_5/5ef_Extended_7e.ipynb)             |
+
 ### Figure 6
 
 | Figure       | Link                                                                                                                                                                                                                                                                                                                                                 |
