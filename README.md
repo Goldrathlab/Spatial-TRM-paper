@@ -181,7 +181,7 @@ This section contains the scripts to reproduce the figures in the paper.
 | ED 2b              | [Notebook](/Figure_2/2g.ipynb)             |
 | ED 2d              | [Notebook](/Figure_2/2j.ipynb)             |
 | ED 3d              | [Notebook](/Figure_3/3g_part3.ipynb)       |
-| ED 4a              | [Notebook](/Figure_3/3g_part3.ipynb)       |
+| ED 6a              | [Notebook](/Figure_3/3g_part3.ipynb)       |
 | ED 6f              | [Notebook](/Figure_4/4be.ipynb)            |
 | ED 8b <br /> ED 8d | [Notebook](/Figure_6/6ab.ipynb)            |
 | ED 7e              | [Notebook](/Figure_5/5ef_Extended_7e.ipynb)|
