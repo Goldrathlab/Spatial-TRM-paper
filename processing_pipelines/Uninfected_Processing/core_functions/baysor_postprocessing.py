@@ -127,10 +127,12 @@ def reassign_multiple_nuclei(
     Returns:
     transcripts_with_gt_and_main_nucleus_filtered (pd.DataFrame): A DataFrame containing the assigned transcripts, their cell numbers, and the most common nucleus assigned to them.
     """
-    reassignments = np.full(len(transcripts_with_gt_and_main_nucleus_filtered), '', dtype='<U30')
+    reassignments = np.full(
+        len(transcripts_with_gt_and_main_nucleus_filtered), "", dtype="<U30"
+    )
     for group_name, group_data in groupby_most_common_nucleus:
         unique = np.unique(group_data.cell_id.values)
-        unique_true = unique[unique != 'UNASSIGNED']
+        unique_true = unique[unique != "UNASSIGNED"]
         cluster_means = []
         for i in unique_true:
             cluster_mean = np.mean(
@@ -202,9 +204,7 @@ def make_adata(transcripts_with_gt_and_main_nucleus_filtered):
         pd.Index(cell_spatial.index.values.astype(str))
     )
     anndata.uns["points"] = transcripts_with_gt_and_main_nucleus_filtered
-    anndata.obs = anndata.obs.set_index(
-        pd.Index(anndata.obs.index.values.astype(str))
-    )
+    anndata.obs = anndata.obs.set_index(pd.Index(anndata.obs.index.values.astype(str)))
     anndata.obs = anndata.obs.merge(
         cell_spatial, how="left", left_index=True, right_index=True
     )

@@ -99,7 +99,7 @@ def create_base_image(spatial_points, other_spatial, downsize=20):
 
 
 def extract_json_info(json_file_path):
-   """
+    """
     Extract relevant information from the JSON file of labels.
 
     Parameters:

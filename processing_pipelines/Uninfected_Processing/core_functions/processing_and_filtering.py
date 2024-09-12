@@ -72,7 +72,7 @@ def qc_before_clustering(
     max_cyto_transcripts=700,
     min_nuc_pct=0,
     max_nuc_pct=1.01,
-    guides = None
+    guides=None,
 ):
     """
     Perform quality control filtering
@@ -86,30 +86,42 @@ def qc_before_clustering(
     print(f"{len(adata.obs.index)} cells before QC filtering")
 
     guide_ids = np.where(adata.var.index.isin(guides))[0]
-    guide_counts = adata.X[:, guide_ids].sum(axis = 1).flatten()
+    guide_counts = adata.X[:, guide_ids].sum(axis=1).flatten()
 
     adata = adata[
-        ((adata.obs["total_transcripts"] > min_transcript_threshold)
-        & (adata.obs["total_transcripts"] < max_transcript_threshold)) | (guide_counts > 0),
+        (
+            (adata.obs["total_transcripts"] > min_transcript_threshold)
+            & (adata.obs["total_transcripts"] < max_transcript_threshold)
+        )
+        | (guide_counts > 0),
         :,
     ]
 
-    guide_counts = adata.X[:, guide_ids].sum(axis = 1).flatten()
+    guide_counts = adata.X[:, guide_ids].sum(axis=1).flatten()
     adata = adata[
-        ((adata.obs["nuclear_transcripts"] > min_nuclear_transcripts)
-        & (adata.obs["nuclear_transcripts"] < max_nuclear_transcripts)) | (guide_counts > 0),
+        (
+            (adata.obs["nuclear_transcripts"] > min_nuclear_transcripts)
+            & (adata.obs["nuclear_transcripts"] < max_nuclear_transcripts)
+        )
+        | (guide_counts > 0),
         :,
     ]
-    guide_counts = adata.X[:, guide_ids].sum(axis = 1).flatten()
+    guide_counts = adata.X[:, guide_ids].sum(axis=1).flatten()
     adata = adata[
-        ((adata.obs["cytoplasmic_transcripts"] > min_cyto_transcripts)
-        & (adata.obs["cytoplasmic_transcripts"] < max_cyto_transcripts)) | (guide_counts > 0),
+        (
+            (adata.obs["cytoplasmic_transcripts"] > min_cyto_transcripts)
+            & (adata.obs["cytoplasmic_transcripts"] < max_cyto_transcripts)
+        )
+        | (guide_counts > 0),
         :,
     ]
-    guide_counts = adata.X[:, guide_ids].sum(axis = 1).flatten()
+    guide_counts = adata.X[:, guide_ids].sum(axis=1).flatten()
     adata = adata[
-        ((adata.obs["nuclear_transcript_percentage"] > min_nuc_pct)
-        & (adata.obs["nuclear_transcript_percentage"] < max_nuc_pct)) | (guide_counts > 0),
+        (
+            (adata.obs["nuclear_transcript_percentage"] > min_nuc_pct)
+            & (adata.obs["nuclear_transcript_percentage"] < max_nuc_pct)
+        )
+        | (guide_counts > 0),
         :,
     ]
 
