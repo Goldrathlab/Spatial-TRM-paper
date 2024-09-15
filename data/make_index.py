@@ -3,6 +3,13 @@ import sys
 from html import escape
 
 
+def format_size(size):
+    for unit in ["B", "KB", "MB", "GB", "TB"]:
+        if size < 1024.0:
+            return f"{size:.2f} {unit}"
+        size /= 1024.0
+
+
 def generate_tree_html(directory):
     css = """
     .tree {
@@ -30,6 +37,7 @@ def generate_tree_html(directory):
       border-color: transparent;
     }
 
+    /* Horizontal lines */
     .tree ul li::before {
       content: '';
       display: block;
@@ -37,7 +45,7 @@ def generate_tree_html(directory):
       top: calc(var(--spacing) / -2);
       left: -2px;
       width: calc(var(--spacing) + 2px);
-      height: calc(var(--spacing) + 1px);
+      height: calc(var(--spacing) - 3px);
       border: solid #ddd;
       border-width: 0 0 2px 2px;
     }
@@ -60,12 +68,13 @@ def generate_tree_html(directory):
       outline: 1px dotted #000;
     }
 
+    /* Dots */
     .tree li::after,
     .tree summary::before {
       content: '';
       display: block;
       position: absolute;
-      top: calc(var(--spacing) / 2 - var(--radius));
+      top: calc(var(--spacing) / 2 - var(--radius) - 2px);
       left: calc(var(--spacing) - var(--radius) - 1px);
       width: calc(2 * var(--radius));
       height: calc(2 * var(--radius));
@@ -92,6 +101,11 @@ def generate_tree_html(directory):
     }
     a:hover {
       text-decoration: underline;
+    }
+    .file-size {
+      color: #6a737d;
+      font-size: 0.85em;
+      margin-left: 0.5em;
     }
     """
 
@@ -132,8 +146,11 @@ def generate_tree_html(directory):
                 html.append("</details>")
                 html.append("</li>")
             else:
+                file_size = os.path.getsize(full_path)
+                formatted_size = format_size(file_size)
                 html.append(
-                    f'<li><a href="{escape(relative_path)}">{escape(item)}</a></li>'
+                    f'<li><a href="{escape(relative_path)}">{escape(item)}</a>'
+                    f'<span class="file-size">({formatted_size})</span></li>'
                 )
 
         if depth == 0:
