@@ -4,6 +4,7 @@ data/images
 data/xenium_output
 data/transcripts
 data/raw_data
+data/index.html
 Figure_3/tmp
 Figure_5/tmp
 Figure_*/out
