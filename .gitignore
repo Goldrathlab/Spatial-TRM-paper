@@ -3,6 +3,7 @@ data/IF
 data/images
 data/xenium_output
 data/transcripts
+data/raw_data
 Figure_3/tmp
 Figure_5/tmp
 Figure_*/out

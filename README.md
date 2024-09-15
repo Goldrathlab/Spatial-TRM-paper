@@ -2,7 +2,7 @@
 ![Project Banner](images/connections.png)
 
 > [!NOTE]
-> In this repository, we show how to reproduce the figures from our 2024 manuscript: **Functional Diversity of Memory CD8 T Cells is Spatiotemporally Imprinted**[^1]. Additionally, we provide our data processing pipelines to create fully-processed Anndata objects containing all of the spatial data used to construct figures.
+> In this repository, we show how to reproduce the figures from our 2024 manuscript: **Memory CD8 T Cell Diversity is Spatiotemporally Imprinted**[^1]. Additionally, we provide our data processing pipelines to create fully-processed Anndata objects containing all of the spatial data used to construct figures.
 
 ## Table of Contents
 
@@ -29,6 +29,8 @@ To reproduce the main figures, the following files in the `data` directory are n
 > [!IMPORTANT]
 > A script to download the processed data is included [here](/data/download.ipynb). In order to run this script, a base url is needed. This url will be provided with the submission of the manuscript.
 
+The full data folder, including raw data and intermediate checkpoints, will look like this:
+
 ```text
 data
 ├── adata
@@ -54,6 +56,28 @@ data
 │   ├── human_09_r2_h_and_e_alignment_gan.npy
 │   └── human_09_r2_IF_alignment.npy
 ├── kegg_cytokines.csv
+├── raw_data
+│   └── spatial_raw_compressed_data
+│       ├── MERSCOPE
+│       │   └── SI-WT-KO-12-30-22-VS120-NP_Beta10.tar.gz
+│       ├── Spatial_Perturb
+│       │   ├── output-XETG00341__0032977__perturb1_SI2_AG0084__20240808__215945.tar.gz
+│       │   └── output-XETG00341__0032977__perturb1_SI3_AG0085__20240808__215945.tar.gz
+│       ├── Timecourse_r1
+│       │   ├── day30_SI.tar.gz
+│       │   ├── day6_SI.tar.gz
+│       │   ├── day8_SI_Ctrl.tar.gz
+│       │   └── day90_SI.tar.gz
+│       ├── Timecourse_r2
+│       │   ├── day30_SI_r2.tar.gz
+│       │   ├── day6_SI_r2.tar.gz
+│       │   ├── day8_SI_r2.tar.gz
+│       │   └── day90_SI_r2.tar.gz
+│       ├── Uninfected
+│       │   ├── output-XETG00341__0014523__NBF_ctrl3_AG0151__20240712__205629.tar.gz
+│       │   └── output-XETG00341__0014567__NBF_ctrl1_AG0160__20240712__205629.tar.gz
+│       └── VisiumHD
+│           └── visium_hd_count_SI_d8pi.tar.gz
 ├── signatures
 │   ├── blimp.txt
 │   ├── Core Trm signature_Milner et al Nature 2017_vIL.txt
