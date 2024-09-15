@@ -1,4 +1,4 @@
-# Functional Diversity of Memory CD8 T Cells is Spatiotemporally Imprinted
+# Memory CD8 T Cell Diversity is Spatiotemporally Imprinted
 ![Project Banner](images/connections.png)
 
 > [!NOTE]
@@ -15,22 +15,25 @@
 
 ## Abstract
 
-Tissue-resident memory CD8 T cells (TRM) provide protection from infection at barrier sites. In the small intestine, TRM cells are found in at least two distinct subpopulations: one with higher expression of effector molecules and another with greater memory potential. However, the origins of this diversity remain unknown. We proposed that distinct tissue niches drive TRM phenotypic heterogeneity. To test this, we leveraged spatial transcriptomics of human samples, a murine model of acute systemic viral infection, and a newly established strategy for pooled optically-encoded gene perturbations to profile the location, interaction, and transcriptome of pathogen-specific TRM differentiation at single-transcript resolution. We developed computational approaches to capture cellular locations along three anatomical axes of the small intestine and to visualize the spatiotemporal distribution of cell types and gene expression. Our study reveals that the intestinal architecture’s regionalized signaling supports two distinct TRM cell states: differentiated TRM and progenitor-like TRM cells, located in the upper versus lower villus, respectively. This diversity is mediated by distinct ligand-receptor activities, cytokine gradients, and specialized cellular contacts. Blocking TGFb or Cxcl9/10-sensing by antigen-specific CD8 T cells revealed a model consistent with anatomically delineated early fate specification. Ultimately, our framework for the study of tissue immune networks has revealed that T cell location and functional state are fundamentally intertwined.
+Tissue-resident memory CD8 T cells (T<sub>RM</sub>) provide protection from infection at barrier sites. In the small intestine, T<sub>RM</sub> cells are found in at least two distinct subpopulations: one with higher expression of effector molecules and another with greater memory potential. However, the origins of this diversity remain unknown. We proposed that distinct tissue niches drive T<sub>RM</sub> phenotypic heterogeneity. To test this, we leveraged spatial transcriptomics of human samples, a murine model of acute systemic viral infection, and a newly established strategy for pooled optically-encoded gene perturbations to profile the location, interaction, and transcriptome of pathogen-specific T<sub>RM</sub> differentiation at single-transcript resolution. We developed computational approaches to capture cellular locations along three anatomical axes of the small intestine and to visualize the spatiotemporal distribution of cell types and gene expression. Our study reveals that the intestinal architecture’s regionalized signaling supports two distinct T<sub>RM</sub> cell states: differentiated T<sub>RM</sub> and progenitor-like T<sub>RM</sub> cells, located in the upper versus lower villus, respectively. This diversity is mediated by distinct ligand-receptor activities, cytokine gradients, and specialized cellular contacts. Blocking TGFb or Cxcl9/10-sensing by antigen-specific CD8 T cells revealed a model consistent with anatomically delineated early fate specification. Ultimately, our framework for the study of tissue immune networks has revealed that T cell location and functional state are fundamentally intertwined.
 
 
 ## Setup
 
-This repository contains a `devcontainer` to allow to run the scripts in a reproducible manner. Please see the [documentation](https://code.visualstudio.com/docs/devcontainers/containers) for further information on how to use devcontainers.
+This repository provides a `devcontainer` setup to ensure that scripts run consistently and reproducibly. For detailed instructions on using devcontainers, please refer to the [official documentation](https://code.visualstudio.com/docs/devcontainers/containers).
+
+The `devcontainer` is built using a minimal Docker container and includes the [pixi](https://prefix.dev/) package manager, which automatically installs the dependencies specified in the `pixi.toml` file.
+
+If you prefer, you can manually install the dependencies using `pixi install`.
+
+Please note that the analysis was conducted on a Linux machine running Ubuntu 22.04 LTS. Many dependencies require a x64 architecture and may not be available for macOS with ARM64 architecture.
+
 
 ## Download
 
-The preprocessed files will be provided on Zenodo upon publication.
-To reproduce the main figures, the following files in the `data` directory are needed.
+To reproduce the main figures, you will need additional files located in the `data` directory. A script to download the processed (and raw) data is provided [here](/data/download.ipynb).
 
-> [!IMPORTANT]
-> A script to download the processed data is included [here](/data/download.ipynb). In order to run this script, a base url is needed. This url will be provided with the submission of the manuscript.
-
-The full data folder, including raw data and intermediate checkpoints, will look like this:
+List of required files:
 
 ```text
 data
@@ -43,7 +46,6 @@ data
 │   ├── timecourse.h5ad
 │   ├── uninfected.h5ad
 │   └── visium_hd.h5ad
-├── download.ipynb
 ├── IF
 │   └── timecourse
 │       ├── day 005.txt
@@ -57,28 +59,6 @@ data
 │   ├── human_09_r2_h_and_e_alignment_gan.npy
 │   └── human_09_r2_IF_alignment.npy
 ├── kegg_cytokines.csv
-├── raw_data
-│   └── spatial_raw_compressed_data
-│       ├── MERSCOPE
-│       │   └── SI-WT-KO-12-30-22-VS120-NP_Beta10.tar.gz
-│       ├── Spatial_Perturb
-│       │   ├── output-XETG00341__0032977__perturb1_SI2_AG0084__20240808__215945.tar.gz
-│       │   └── output-XETG00341__0032977__perturb1_SI3_AG0085__20240808__215945.tar.gz
-│       ├── Timecourse_r1
-│       │   ├── day30_SI.tar.gz
-│       │   ├── day6_SI.tar.gz
-│       │   ├── day8_SI_Ctrl.tar.gz
-│       │   └── day90_SI.tar.gz
-│       ├── Timecourse_r2
-│       │   ├── day30_SI_r2.tar.gz
-│       │   ├── day6_SI_r2.tar.gz
-│       │   ├── day8_SI_r2.tar.gz
-│       │   └── day90_SI_r2.tar.gz
-│       ├── Uninfected
-│       │   ├── output-XETG00341__0014523__NBF_ctrl3_AG0151__20240712__205629.tar.gz
-│       │   └── output-XETG00341__0014567__NBF_ctrl1_AG0160__20240712__205629.tar.gz
-│       └── VisiumHD
-│           └── visium_hd_count_SI_d8pi.tar.gz
 ├── signatures
 │   ├── blimp.txt
 │   ├── Core Trm signature_Milner et al Nature 2017_vIL.txt
@@ -95,6 +75,9 @@ data
         ├── experiment.xenium
         └── morphology_mip.ome.tif
 ```
+
+The complete data repository that accompanies the manuscript submission can be accessed [here](https://2024-spatial-trm.data.heeg.io/).
+
 
 ## Preprocessing
 
@@ -115,7 +98,7 @@ Data from 10x Xenium and Vizgen MERSCOPE were preprocessed using a custom segmen
   baysor.prior_segmentation_confidence = 0.9
   ```
 
-In this project, we had four similar but separate processing pipelines for processing data from different settings.
+In this project, we had similar but separate processing pipelines for processing data from different settings.
 
 1. Processing of Xenium mouse small intestine timecourse first replicates.
    [Xenium mouse rep 1 processing](/processing_pipelines/Xenium_mouse_replicate_1_processing)
