@@ -191,11 +191,11 @@ This section contains the scripts to reproduce the figures in the paper.
 | Figure             | Link                                       |
 | ------------------ | ------------------------------------------ |
 | ED 6a              | [Notebook](/Figure_3/3g_part3.ipynb)       |
-| ED 6f              | [Notebook](/Figure_4/4be.ipynb)            |
-| ED 8b <br /> ED 8d | [Notebook](/Figure_6/6ab.ipynb)            |
-| ED 7e              | [Notebook](/Figure_5/5ef_Extended_7e.ipynb)|
-| ED 7b <br /> ED 7d | [Notebook](/Figure_5/Extended_7bd.ipynb)   |
-| ED 7c              | [Notebook](/Figure_5/Extended_7c.ipynb)    |
+| ED 6f              | [Notebook](/Extended_Data_Figure_7/ED7be.ipynb)            |
+| ED 8b <br /> ED 8d | [Notebook](/Figure_5/5ab.ipynb)            |
+| ED 7e              | [Notebook](/Figure_4/4ef_Extended_8e.ipynb)|
+| ED 7b <br /> ED 7d | [Notebook](/Figure_4/Extended_4bd.ipynb)   |
+| ED 7c              | [Notebook](/Figure_4/Extended_4c.ipynb)    |
 
 ## Submitting changes
 
