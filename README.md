@@ -161,10 +161,10 @@ This section contains the scripts to reproduce the figures in the paper.
 
 | Figure       | Link                                                          |
 | ------------ | ------------------------------------------------------------- |
-| ED 7a           | [Overview plots](/Figure_4/4a.ipynb)                          |
-| ED 7b <br /> ED 7e | [IMAP and expression IMAP](/Figure_4/4be.ipynb)               |
-| ED 7d           | [Differenitally expressed genes](/Figure_4/4d.ipynb)          |
-| ED 7g <br /> ED 7h | [Correlation of expression to celltypes](/Figure_4/4gh.ipynb) |
+| ED 7a           | [Overview plots](/Extended_Data_Figure_7/ED7a.ipynb)                          |
+| ED 7b <br /> ED 7e | [IMAP and expression IMAP](/Extended_Data_Figure_7/ED7be.ipynb)               |
+| ED 7d           | [Differenitally expressed genes](/Extended_Data_Figure_7/ED7d.ipynb)          |
+| ED 7g <br /> ED 7h | [Correlation of expression to celltypes](Extended_Data_Figure_7/ED7gh.ipynb) |
 
 ### Figure 5
 
