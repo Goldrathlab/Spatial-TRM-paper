@@ -157,15 +157,6 @@ This section contains the scripts to reproduce the figures in the paper.
 | 3e           | [TGFb isoforms in the small intestine](/Figure_3/3e_5a.ipynb)    <br />   [Xenium picture](/Figure_3/3e_picture.ipynb)                                                                |
 | 3f           | Cellchat <br /> [Part 1: Preprocessing python](/Figure_3/3g_part1.ipynb) <br /> [Part 2: Run Cellchat](/Figure_3/3g_part2.ipynb) <br /> [Part 3: Make plot](/Figure_3/3g_part3.ipynb) |
 
-### Extended Data Figure 7
-
-| Figure       | Link                                                          |
-| ------------ | ------------------------------------------------------------- |
-| ED 7a           | [Overview plots](/Extended_Data_Figure_7/ED7a.ipynb)                          |
-| ED 7b <br /> ED 7e | [IMAP and expression IMAP](/Extended_Data_Figure_7/ED7be.ipynb)               |
-| ED 7d           | [Differenitally expressed genes](/Extended_Data_Figure_7/ED7d.ipynb)          |
-| ED 7g <br /> ED 7h | [Correlation of expression to celltypes](Extended_Data_Figure_7/ED7gh.ipynb) |
-
 ### Figure 4
 
 | Figure                            | Link                                                           |
@@ -175,16 +166,25 @@ This section contains the scripts to reproduce the figures in the paper.
 | 4d                                | [Gene depletion](/Figure_4/4d.ipynb)                           |
 | 4e <br /> 4f                      | [IMAPs and gates](/Figure_4/4ef_Extended_8e.ipynb)             |
 
-### Figure 6
+### Figure 5
 
 | Figure       | Link                                                                                                                                                                                                                                                                                                                                                 |
 | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 6a <br /> 6b | [MDE plot and cell frequencies](/Figure_6/6ab.ipynb)                                                                                                                                                                                                                                                                                                 |
-| 6c           | [Xenium, H&E, IF and transcripts](/Figure_6/6c.ipynb)                                                                                                                                                                                                                                                                                                |
-| 6d           | [Mouse signature on human IMAP](/Figure_6/6d.ipynb)                                                                                                                                                                                                                                                                                                  |
-| 6e <br /> 6f | [Convolved expression heatmap](/Figure_6/6ef.ipynb)                                                                                                                                                                                                                                                                                                  |
-| 6g           | [Correlation between gene expression and cell types](/Figure_6/6g.ipynb)                                                                                                                                                                                                                                                                             |
-| 6h           | Cellchat <br /> [Part 1: Dataset export](/Figure_6/6h_part1_dataset_export_signature.ipynb) <br /> [Part 2: Cellchat preparation](/Figure_6/6h_part2_cellchat_preparation%20signature.ipynb) <br /> [Part 3: Run Cellchat](/Figure_6/6h_part3_spatial_cellchat_signature.ipynb) <br /> [Part 4: Make plot](/Figure_6/6h_part4_output_cellchat.ipynb) |
+| 5a <br /> 5b | [MDE plot and cell frequencies](/Figure_5/5ab.ipynb)                                                                                                                                                                                                                                                                                                 |
+| 5c           | [Xenium, H&E, IF and transcripts](/Figure_5/5c.ipynb)                                                                                                                                                                                                                                                                                                |
+| 5d           | [Mouse signature on human IMAP](/Figure_5/5d.ipynb)                                                                                                                                                                                                                                                                                                  |
+| 5e <br /> 5f | [Convolved expression heatmap](/Figure_5/5ef.ipynb)                                                                                                                                                                                                                                                                                                  |
+| 5g           | [Correlation between gene expression and cell types](/Figure_5/5g.ipynb)                                                                                                                                                                                                                                                                             |
+| 5h           | Cellchat <br /> [Part 1: Dataset export](/Figure_5/5h_part1_dataset_export_signature.ipynb) <br /> [Part 2: Cellchat preparation](/Figure_5/5h_part2_cellchat_preparation%20signature.ipynb) <br /> [Part 3: Run Cellchat](/Figure_5/5h_part3_spatial_cellchat_signature.ipynb) <br /> [Part 4: Make plot](/Figure_5/5h_part4_output_cellchat.ipynb) |
+
+### Extended Data Figure 7
+
+| Figure       | Link                                                          |
+| ------------ | ------------------------------------------------------------- |
+| ED 7a           | [Overview plots](/Extended_Data_Figure_7/ED7a.ipynb)                          |
+| ED 7b <br /> ED 7e | [IMAP and expression IMAP](/Extended_Data_Figure_7/ED7be.ipynb)               |
+| ED 7d           | [Differenitally expressed genes](/Extended_Data_Figure_7/ED7d.ipynb)          |
+| ED 7g <br /> ED 7h | [Correlation of expression to celltypes](Extended_Data_Figure_7/ED7gh.ipynb) |
 
 ### Extended data figures
 
