@@ -186,7 +186,7 @@ This section contains the scripts to reproduce the figures in the paper.
 | ED 7d           | [Differenitally expressed genes](/Extended_Data_Figure_7/ED7d.ipynb)          |
 | ED 7g <br /> ED 7h | [Correlation of expression to celltypes](Extended_Data_Figure_7/ED7gh.ipynb) |
 
-### Extended data figures
+### Other extended data figures
 
 | Figure             | Link                                       |
 | ------------------ | ------------------------------------------ |
