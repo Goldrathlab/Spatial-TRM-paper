@@ -166,14 +166,14 @@ This section contains the scripts to reproduce the figures in the paper.
 | ED 7d           | [Differenitally expressed genes](/Extended_Data_Figure_7/ED7d.ipynb)          |
 | ED 7g <br /> ED 7h | [Correlation of expression to celltypes](Extended_Data_Figure_7/ED7gh.ipynb) |
 
-### Figure 5
+### Figure 4
 
 | Figure                            | Link                                                           |
 | --------------------------------- | -------------------------------------------------------------- |
-| Preprocessing for Figure 5 object | [Figure 5 Preprocessing](/Figure_5/figure_object_creation)     |
-| 5a                                | [Cxcl9 and Cxcl10 expression](/Figure_5/5a.ipynb)              |
-| 5d                                | [Gene depletion](/Figure_5/5d.ipynb)                           |
-| 5e <br /> 5f                      | [IMAPs and gates](/Figure_5/5ef_Extended_7e.ipynb)             |
+| Preprocessing for Figure 4 object | [Figure 4 Preprocessing](/Figure_4/figure_object_creation)     |
+| 4a                                | [Cxcl9 and Cxcl10 expression](/Figure_4/4a.ipynb)              |
+| 4d                                | [Gene depletion](/Figure_4/4d.ipynb)                           |
+| 4e <br /> 4f                      | [IMAPs and gates](/Figure_4/4ef_Extended_8e.ipynb)             |
 
 ### Figure 6
 
