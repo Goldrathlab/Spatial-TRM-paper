@@ -157,14 +157,14 @@ This section contains the scripts to reproduce the figures in the paper.
 | 3e           | [TGFb isoforms in the small intestine](/Figure_3/3e_5a.ipynb)    <br />   [Xenium picture](/Figure_3/3e_picture.ipynb)                                                                |
 | 3f           | Cellchat <br /> [Part 1: Preprocessing python](/Figure_3/3g_part1.ipynb) <br /> [Part 2: Run Cellchat](/Figure_3/3g_part2.ipynb) <br /> [Part 3: Make plot](/Figure_3/3g_part3.ipynb) |
 
-### Figure 4
+### Extended Data Figure 7
 
 | Figure       | Link                                                          |
 | ------------ | ------------------------------------------------------------- |
-| 4a           | [Overview plots](/Figure_4/4a.ipynb)                          |
-| 4b <br /> 4e | [IMAP and expression IMAP](/Figure_4/4be.ipynb)               |
-| 4d           | [Differenitally expressed genes](/Figure_4/4d.ipynb)          |
-| 4g <br /> 4h | [Correlation of expression to celltypes](/Figure_4/4gh.ipynb) |
+| ED 7a           | [Overview plots](/Figure_4/4a.ipynb)                          |
+| ED 7b <br /> ED 7e | [IMAP and expression IMAP](/Figure_4/4be.ipynb)               |
+| ED 7d           | [Differenitally expressed genes](/Figure_4/4d.ipynb)          |
+| ED 7g <br /> ED 7h | [Correlation of expression to celltypes](/Figure_4/4gh.ipynb) |
 
 ### Figure 5
 
