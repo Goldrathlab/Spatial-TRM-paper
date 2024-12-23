@@ -11,7 +11,7 @@
 - [Download](#download)
 - [Preprocessing](#preprocessing)
 - [Figures](#figures)
-- [Submitting changes](#submittingchanges)
+- [Submitting changes](#submitting-changes)
 
 ## Abstract
 
