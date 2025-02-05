@@ -1,8 +1,8 @@
-# Memory CD8 T Cell Diversity is Spatiotemporally Imprinted
+# Tissue-resident memory CD8 T cell diversity is spatiotemporally imprinted
 ![Project Banner](images/connections.png)
 
 > [!NOTE]
-> In this repository, we show how to reproduce the figures from our 2024 manuscript: **Memory CD8 T Cell Diversity is Spatiotemporally Imprinted**[^1]. Additionally, we provide our data processing pipelines to create fully-processed Anndata objects containing all of the spatial data used to construct figures.
+> In this repository, we show how to reproduce the figures from our 2025 manuscript: **Tissue-resident memory CD8 T cell diversity is spatiotemporally imprinted**[^1][^2]. Additionally, we provide our data processing pipelines to create fully-processed Anndata objects containing all of the spatial data used to construct figures.
 
 ## Table of Contents
 
@@ -15,8 +15,7 @@
 
 ## Abstract
 
-Tissue-resident memory CD8 T cells (T<sub>RM</sub>) provide protection from infection at barrier sites. In the small intestine, T<sub>RM</sub> cells are found in at least two distinct subpopulations: one with higher expression of effector molecules and another with greater memory potential. However, the origins of this diversity remain unknown. We proposed that distinct tissue niches drive T<sub>RM</sub> phenotypic heterogeneity. To test this, we leveraged spatial transcriptomics of human samples, a murine model of acute systemic viral infection, and a newly established strategy for pooled optically-encoded gene perturbations to profile the location, interaction, and transcriptome of pathogen-specific T<sub>RM</sub> differentiation at single-transcript resolution. We developed computational approaches to capture cellular locations along three anatomical axes of the small intestine and to visualize the spatiotemporal distribution of cell types and gene expression. Our study reveals that the intestinal architecture’s regionalized signaling supports two distinct T<sub>RM</sub> cell states: differentiated T<sub>RM</sub> and progenitor-like T<sub>RM</sub> cells, located in the upper versus lower villus, respectively. This diversity is mediated by distinct ligand-receptor activities, cytokine gradients, and specialized cellular contacts. Blocking TGFb or Cxcl9/10-sensing by antigen-specific CD8 T cells revealed a model consistent with anatomically delineated early fate specification. Ultimately, our framework for the study of tissue immune networks has revealed that T cell location and functional state are fundamentally intertwined.
-
+Tissue-resident memory CD8 T (T<sub>RM</sub>) cells provide protection from infection at barrier sites. In the small intestine, T<sub>RM</sub> cells are found in at least two distinct subpopulations: one with higher expression of effector molecules and another with greater memory potential1. However, the origins of this diversity remain unknown. Here we proposed that distinct tissue niches drive the phenotypic heterogeneity of T<sub>RM</sub> cells. To test this, we leveraged spatial transcriptomics of human samples, a mouse model of acute systemic viral infection and a newly established strategy for pooled optically encoded gene perturbations to profile the locations, interactions and transcriptomes of pathogen-specific T<sub>RM</sub> cell differentiation at single-transcript resolution. We developed computational approaches to capture cellular locations along three anatomical axes of the small intestine and to visualize the spatiotemporal distribution of cell types and gene expression. Our study reveals that the regionalized signalling of the intestinal architecture supports two distinct T<sub>RM</sub> cell states: differentiated T<sub>RM</sub> cells and progenitor-like T<sub>RM</sub> cells, located in the upper villus and lower villus, respectively. This diversity is mediated by distinct ligand–receptor activities, cytokine gradients and specialized cellular contacts. Blocking TGFβ or CXCL9 and CXCL10 sensing by antigen-specific CD8 T cells revealed a model consistent with anatomically delineated, early fate specification. Ultimately, our framework for the study of tissue immune networks reveals that T cell location and functional state are fundamentally intertwined.
 
 ## Setup
 
@@ -210,3 +209,4 @@ This section contains the scripts to reproduce the figures in the paper.
 - Ananda Goldrath: :envelope: agoldrath@alleninstitute.org
 
 [^1]: [Preprint at bioRxiv](https://www.biorxiv.org/content/10.1101/2024.03.20.585130v1)
+[^2]: [Publication at _Nature_](https://www.nature.com/articles/s41586-024-08466-x)
